@@ -1,3 +1,9 @@
-body{
-    font-family: 'Be Vietnam', sans-serif;
+.background-image {
+    background-image: url('/img/bgPutih.png'); /* Ganti dengan path gambar kamu */
+}
+.background-image-2 {
+    background-image: url('/img/bg2.png'); /* Ganti dengan path gambar kamu */
+}
+.background-image-kopiTransparan {
+    background-image: url('/img/kopiTransparan.png'); /* Ganti dengan path gambar kamu */
 }
