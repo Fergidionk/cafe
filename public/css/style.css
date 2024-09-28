@@ -7,3 +7,14 @@
 .background-image-kopiTransparan {
     background-image: url('/img/kopiTransparan.png'); /* Ganti dengan path gambar kamu */
 }
+.background-image-3 {
+    background-image: url('/img/bg3.png'); /* Ganti dengan path gambar kamu */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh kontainer */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Agar gambar tidak berulang */
+    height: 100vh; /* Atur tinggi kontainer sesuai kebutuhan */
+    width: 100%; /* Atur lebar kontainer */
+}
+.background-image-menu{
+    background-image: url('/img/bgMenu.png'); /* Ganti dengan path gambar kamu */
+}
