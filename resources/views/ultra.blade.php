@@ -18,7 +18,7 @@
     @include('partials.navbar')
 
     {{-- CTA --}}
-    <div class="background-image h-screen bg-cover bg-center">
+    <div class="background-image h-screen bg-cover bg-center shadow-lg	">
         <div class="grid grid-cols-2 gap-4 lg:px-20 items-center h-64">
             {{-- col-1 --}}
             <div class="flex flex-col justify-center relative">
@@ -42,7 +42,7 @@
         </div>
     </div>
     {{-- Menu --}}
-    <div class="what-menu content-center px-20 py-10 background-image-kopiTransparan h-screen">
+    <div class="what-menu content-center px-20 py-10 background-image-kopiTransparan h-screen border-2 shadow-lg	">
         <div class="text-center ">
             <h1 class="text-xl font-bold justify-center text-[#573624]">Apa Menunya Di Sini?</h1>
         </div>
@@ -126,20 +126,6 @@
         </div>
 
     </div>
-    {{-- menu Favorit --}}
-    <div class="favorite background-image-3 grid-cols-2 flex p-10">
-        <div class="img flex content-center items-center">
-            <img src="{{ asset('img/kroisan.png') }}" class="w-96 h-96">
-        </div>
-        <div class="text content-center items-center">
-            <h1 class="text-[#573624] font-spartan text-4xl">
-                Menu sarapan Favorit Kami
-            </h1>
-            <div class="text-[#363535] font-spartan pr-10">
-                Menu favorit kafe kami yang sering dipesan pelanggan saat sarapan tiba
-            </div>
-        </div>
-    </div>
     {{-- Menu --}}
     <div class="menu bg-[#573624] h-screen">
         <div class="judul text-4xl text-[#FFFFFF] text-center py-8">
@@ -150,8 +136,8 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
             {{-- card 1 --}}
-            <div class="max-w-sm rounded overflow-hidden shadow-lg background-image-menu mx-auto">
-                <img class="mx-auto hover:" src="{{ asset('img/menu1.png') }}" alt="Sunset in the mountains">
+            <div class="max-w-sm hover:scale-105 ease-in duration-150 rounded overflow-hidden shadow-lg background-image-menu mx-auto">
+                <img class="mx-auto" src="{{ asset('img/menu1.png') }}" alt="Sunset in the mountains">
                 <div class="px-6 py-4 text-center">
                     <div class="font-bold text-xl mb-2 text-white">Coffe Latte</div>
                     <p class="text-white text-base font-spartan">
@@ -165,8 +151,8 @@
             </div>
 
             {{-- card 2 --}}
-            <div class="max-w-sm rounded overflow-hidden shadow-lg background-image-menu mx-auto">
-                <img class="mx-auto hover:" src="{{ asset('img/menu2.png') }}" alt="Sunset in the mountains">
+            <div class="max-w-sm hover:scale-105 ease-in duration-150 rounded overflow-hidden shadow-lg background-image-menu mx-auto">
+                <img class="mx-auto" src="{{ asset('img/menu2.png') }}" alt="Sunset in the mountains">
                 <div class="px-6 py-4 text-center">
                     <div class="font-bold text-xl mb-2 text-white">Ice Cream Cappucino</div>
                     <p class="text-white text-base font-spartan">
@@ -181,8 +167,8 @@
             </div>
 
             {{-- card 3 --}}
-            <div class="max-w-sm rounded overflow-hidden shadow-lg background-image-menu mx-auto">
-                <img class="mx-auto hover:" src="{{ asset('img/menu3.png') }}" alt="Sunset in the mountains">
+            <div class="max-w-sm hover:scale-105 ease-in duration-150 rounded overflow-hidden shadow-lg background-image-menu mx-auto">
+                <img class="mx-auto" src="{{ asset('img/menu3.png') }}" alt="Sunset in the mountains">
                 <div class="px-6 py-4 text-center">
                     <div class="font-bold text-xl mb-2 text-white">Bread Baguette</div>
                     <p class="text-white text-base font-spartan">
