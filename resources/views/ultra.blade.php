@@ -151,47 +151,38 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
             {{-- card 1 --}}
             <div class="max-w-sm rounded overflow-hidden shadow-lg background-image-menu mx-auto">
-                <img class="mx-auto" src="{{ asset('img/menu1.png') }}" alt="Sunset in the mountains">
+                <img class="mx-auto hover:" src="{{ asset('img/menu1.png') }}" alt="Sunset in the mountains">
                 <div class="px-6 py-4 text-center">
                     <div class="font-bold text-xl mb-2 text-white">Coffe Latte</div>
                     <p class="text-white text-base font-spartan">
                         Kopi ini memiliki rasa yang milky. Anda bisa menambah topping lain sesuai selera. Kopi ini bisa
                         diminum dengan keadaan dingin maupun hangat
                     </p>
-                    <div class="button px-8 mt-2 opacity-50">
-                        <button class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">
-                            Rincian
-                        </button>
-                        <button class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">
-                            Pesan
-                        </button>
+                    <div class="button px-8 mt-4 opacity-80">
+                        <a href="pesan?product=CoffeLatte" class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">Pesan</a>
                     </div>
                 </div>
             </div>
 
             {{-- card 2 --}}
             <div class="max-w-sm rounded overflow-hidden shadow-lg background-image-menu mx-auto">
-                <img class="mx-auto" src="{{ asset('img/menu2.png') }}" alt="Sunset in the mountains">
+                <img class="mx-auto hover:" src="{{ asset('img/menu2.png') }}" alt="Sunset in the mountains">
                 <div class="px-6 py-4 text-center">
                     <div class="font-bold text-xl mb-2 text-white">Ice Cream Cappucino</div>
                     <p class="text-white text-base font-spartan">
                         Es Krim dengan rasa kopi cappucino adalah menu terbaik di kafe kami. Bukan hanya rasa kopi saja,
                         berbagai toping juga bisa anda tambahkan dan rasakan kenikmatan es krim cappucino disini.
                     </p>
-                    <div class="button px-8 mt-2 opacity-50">
-                        <button class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">
-                            Rincian
-                        </button>
-                        <button class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">
-                            Pesan
-                        </button>
+                    <div class="button px-8 mt-4 opacity-80">
+                        <a href="pesan?product=IceCreamCappucino" class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">Pesan</a>
+
                     </div>
                 </div>
             </div>
 
             {{-- card 3 --}}
             <div class="max-w-sm rounded overflow-hidden shadow-lg background-image-menu mx-auto">
-                <img class="mx-auto" src="{{ asset('img/menu3.png') }}" alt="Sunset in the mountains">
+                <img class="mx-auto hover:" src="{{ asset('img/menu3.png') }}" alt="Sunset in the mountains">
                 <div class="px-6 py-4 text-center">
                     <div class="font-bold text-xl mb-2 text-white">Bread Baguette</div>
                     <p class="text-white text-base font-spartan">
@@ -199,13 +190,8 @@
                         berbagai rasa lain tersedia.
                         Sesuai dengan selera, anda bisa memesan sandwich atau roti manis
                     </p>
-                    <div class="button px-8 mt-2 opacity-50">
-                        <button class="bg-[#7d543c] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Rincian
-                        </button>
-                        <button class="bg-[#7d543c] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Pesan
-                        </button>
+                    <div class="button px-8 mt-4 opacity-80">
+                        <a href="pesan?product=BreadBaguette" class="bg-[#956448] hover:bg-[#7d543c] text-white font-bold py-2 px-4 rounded">Pesan</a>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PesanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('ultra');
-});
+// Route::get('/', function () {
+//     return view('ultra');
+// }); 
+Route::get('/pesan', function () {
+    return view('pesan');
+}); 
+Route::get('/', [PesanController::class, 'index'])->name('ultra');
